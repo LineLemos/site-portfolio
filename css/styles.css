@@ -1,0 +1,180 @@
+.page {
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.header-container {
+    background-color: black;
+    height: 400px;
+    padding: 150px 30px;
+}
+
+.header-container h1 {
+    color: rgb(209, 209, 209);
+    font-size: 50px;
+
+}
+
+.header-container p {
+    color: rgb(204, 204, 204);
+    font-size: 30px;
+
+}
+
+.image {
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    position: absolute;
+    top: -60px;
+    left: 900px;
+}
+
+.image2 {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: 800px;
+    z-index: 1;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.image3 {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    left: 1100px;
+    z-index: 1;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.navbar-container {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 25px;
+    background-color: rgb(58, 88, 41);
+    padding: 6px 30px;
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: rgb(22, 37, 12);
+}
+
+section {
+    padding-left: 30px;
+}
+
+section h1 {
+    font-size: 32px;
+    padding: 20px 0;
+}
+
+#sobre p {
+    font-size: 20px;
+    width: 900px;
+
+}
+
+.galeria-images {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.galeria-images img {
+    width: 316px;
+    height: 450px;
+    aspect-ratio: 1/1;
+}
+
+.contato-container p {
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.form{
+display: flex;
+flex-direction: column;
+width: 600px;
+padding: 8px 0;
+}
+
+.form label{
+    font-size: 16px;
+
+}
+
+input, textarea{
+    background-color: #dddac7;
+    border-radius: 3px;
+}
+
+.button{
+    padding-top: 6px;
+}
+
+.button button{
+    background-color: rgb(58, 88, 41);
+    color: rgb(255, 255, 255);
+    width: 80px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+
+.button button:hover{
+    color: rgb(22, 37, 12);
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 46px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer-icons {
+    display: flex;
+    margin-left: 16px;
+    gap: 30px;
+}
+
+.fab {
+    color: #FFF;
+    font-size: 28px;
+}
+
+.footer p {
+    max-width: 800px;
+    line-height: 22px;
+}
+
+.footer p span {
+    color:  rgb(58, 88, 41);
+    font-weight: 500;
+}
+
+.footer i:hover{
+    color: rgb(22, 37, 12);
+}
